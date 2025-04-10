@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			body{
+				background-color: #2a2828;
+				width: 1000px;
+				margin: 0 auto;
+			}
+			
+			/*  header begin  */
+			header{
+				position: relative;
+				font-size: 0;
+			}
+			header form{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+			header img{
+				width: 300px;
+				height: 120px;
+				margin: 0;
+                padding: 0;  
+			}
+			form input[type="text"]{
+				width: 175px;
+				height: 20px;
+			}
+		   form input[type="submit"]{
+			   height: 25px;
+		   }
+			/* header end */
+			
+			/* ul begin */
+			ul{
+				list-style-type: none;
+				margin: 0 20px 0 0;
+				width: 150px;
+				float: left;
+			}
+			ul li a{
+				text-decoration: none;
+				color: #fff;
+				display: block;
+				padding: 8px 0;
+				border-bottom: 1px dashed #fff;
+				padding-left: 8px;
+			}
+			ul li a:hover{
+				background-color: orange;
+			}
+			h4{
+				color: red;
+				background-color: greenyellow;
+				text-align: center;
+				padding: 20px;
+				margin-bottom: 0;
+			}
+			 /* ul end */
+			
+			 /* div.price begin */ 
+	        div.price{
+	          	float: right;
+	          	width: 200px;
+	          	margin: 20px 0 0 0;
+	          }
+			div.wrapper{
+			  	border: 1px solid #fff;
+				color: #fff;
+			  }
+			div.price h4{
+			  	background-color: lightblue;
+			  	text-align: center;
+			  	padding: 20px;
+			  	margin-top: 0;
+			  	margin-bottom: 0;
+			  }
+			div.price span{
+				display: block;
+				text-align: center;
+				font-weight: 700;
+			}
+			div.price p{
+				text-indent: 1em;
+				padding: 0 10px;
+				margin: 0; 
+			}
+			 /* div.price end */ 
+			
+			 /* div.content begin */ 
+			div.content{
+				width: 580px;
+				margin: 20px 0 0 20px;
+				overflow: hidden;
+			}
+			h3{
+				text-align: center;
+			}
+			div h3.h3{
+				color: red;
+				background-color: orange;
+				margin: 0;
+				padding: 20px ;
+			}
+			div.detail{
+				border: 1px solid #fff;
+				color: #fff;
+			}
+			div.detail p{
+				text-indent: 2em;
+				padding: 0 10px;
+			}
+			img{
+				margin:15px;
+				margin-right: 10px;
+				padding: 10px;
+				width:180px;
+				height: 160px;
+			}
+			img.left{
+				float: left;
+			}
+			img.right{
+				float: right;
+			}
+			img.img1{
+				width: 160px;
+			}
+			img.img2{
+				padding: 0 35px;
+			}
+			img.img3{
+				width: 160px;
+				padding: 0 10px;
+			}
+			img.img4{
+				height: 180px;
+				padding: 10px 35px;
+			} 
+		 /* div.content end */ 	
+		 
+		 /* div.footer begin */
+		    div.footer{
+				color: #fff;
+				text-align: center;
+				margin: 15px 0 15px 0;
+				
+			}
+			div.footer p{
+				margin: 0;
+			}
+		 /* div.footer end */
+			
+		</style>	
+	</head>
+	
+	<body>
+		     <header>
+				 <img src="./header.png" alt="" />
+				<form action="#" method="post">
+				<input type="text">
+				<input type="submit" value="搜一搜">
+				</form>
+				 
+			 </header>
+			 
+				 <ul>
+				 		 	 <h4>玉米品种</h4>
+				 		 	<li><a href="#">郑单958</a></li>
+				 		 	<li><a href="#">京科968</a></li>
+				 		 	<li><a href="#">良玉99</a></li>
+				 		 	<li><a href="#">先玉335</a></li>
+				 		 	<li><a href="#">天农9</a></li>
+				 		 	<li><a href="#">翔玉998</a></li>
+				 		 	<li><a href="#">优迪919</a></li>
+				 		 	<li>  <a href="#">联创832</a></li>
+				 		 </ul>
+				 
+				 <div class="price">
+				 	<h4>玉米种子价格</h4>
+				 	<div class="wrapper">
+				 		<span>郑单958</span>
+				 		<p>35-55元/袋（规格4000-5000粒左右）</p>
+				 	</div>
+				 	
+				 	<div class="wrapper">
+				 		<span>京科968</span>
+				 		<p>40-60元/袋（规格4000-5000粒左右）</p>
+				 	</div>
+				 	
+				 	<div class="wrapper">
+				 		<span>良玉99</span>
+				 		<p>30-65元/袋（规格4000-5000粒左右）</p>
+				 	</div>
+				 	
+				 	<div class="wrapper">
+				 		<span>先玉335</span>
+				 		<p>40-60元/袋（规格4000-5000粒左右）</p>
+				 	</div>
+				 	
+				 	<div class="wrapper">
+				 		<span>天农9</span>
+				 		<p>35-55元/袋（规格4000-5000粒左右）</p>
+				 	</div>
+				 	
+				 	<div class="wrapper">
+				 		<span>翔玉998</span>
+				 		<p>40-60元/袋（规格4000-5000粒左右）</p>
+				 	</div>
+				 	
+				 	<div class="wrapper">
+				 		<span>优迪919</span>
+				 		<p>40-65元/袋（规格4000-5000粒左右）</p>
+				 	</div>
+				 	
+				 	<div class="wrapper">
+				 		<span>联创832</span>
+				 		<p>35-55元/袋（规格4000-5000粒左右）</p>
+				 		</div>
+				 		
+				 	</div>
+				 	
+				 <div class="content">
+				 	<h3 class="h3">玉米品种介绍</h3>
+				 	<img src="./img1.png" alt="" class="left img1">
+				 	<div class="detail">
+				 	   <h3>郑单958</h3>
+				 	   <p>郑单958是我国目前种植面积最大的玉米品种，全国已累计推广接近5亿亩。该品种属中熟玉米杂交种，株高246厘米左右，穗位高110厘米左右。籽粒黄色，半马齿型，白轴，粒深轴细，出籽率90%左右。夏播生育期96天左右，春播105天左右。综合抗性好，结实性好</p>
+				 	</div>
+				 	
+				 	<img src="./img2.png" alt="" class="right img2">
+				 	<div class="detail">
+				 	   <h3>京科968</h3>
+				 	   <p>2018年通过国家审定，适宜面积广，适宜东华北、西北、东南春玉米区种植，东华北地区出苗至成熟128天，株型半紧凑，株高296厘米，穗位高120厘米，在内蒙的通辽占绝对优势</p>
+				 	</div>
+				 	
+				 	<img src="./img3.png" alt="" class="left img3">
+				 	<div class="detail">
+				 	   <h3>良玉99</h3>
+				 	   <p>东华北地区出苗至成熟128天左右，夏播生育期98天左右，株型紧凑，耐密植。适宜中等肥力以上地块，可以采用多种种植方式种植。一般亩产800-900公斤左右，在高产栽培情况下可达1100公斤左右</p>
+				 	</div>
+				 	
+				 	<img src="./img4.png" alt="" class="right img4">
+				 	<div class="detail">
+				 	   <h3>先玉335</h3>
+				 	   <p>该品种是由铁岭先锋种子研究有限公司选育的杂交玉米新品种，自2004年通过国家审定以来，先后通过了辽宁、新疆、甘肃、黑龙江等20多个省市自治区审定备案。该品种适应性好，抗病抗倒能力强，种植面积仅次于郑单958，是农业部向全国主推的两大玉米品种之一</p>
+				 	</div>
+				 </div>
+	
+	<div class="footer">
+		<p>CornHub 团队每天都在更新和添加更多玉米视频。</p>
+		<p>我们有大量的免费 CCC 视频选择，您可以下载或流式传输。CornHub 是最完整和最具革命性的玉米管网站。</p>
+		<p>我们提供流媒体玉米视频、CCC 相册和网络上排名第一的免费流行社区。我们一直在努力添加更多功能，让您对 corno 的热爱永存不息。</p>
+		<p>如果您有任何问题/评论，请向我们发送反馈。</p>
+	</div>
+		</body>
+	</html>
+	
